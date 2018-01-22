@@ -1,5 +1,9 @@
 /* General CSS stuff goes here. */
 
-body {
-    background-color: firebrick;
+.feature-box {
+    background-color: orangered;
+}
+
+.contact-form {
+    background-color: lightgrey;
 }
