@@ -12,9 +12,13 @@
 
     <!-- Bootstrap core CSS Modules-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
@@ -24,6 +28,10 @@
 
 <body>
 
+
+
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
         <a class="navbar-brand" href="#">Home</a>
@@ -31,120 +39,109 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About
+                    <a class="nav-link" href="#aboutme">About
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contactme">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+
+
+
+
     <!-- Header -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Header</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, distinctio. Saepe adipisci culpa quae fugiat!
-                Debitis, quas nemo? Corrupti laborum sed impedit, aut ducimus libero sapiente voluptatum omnis. Praesentium,
-                consequuntur!
-            </p>
+            <h1 class="display-4">Andres Martin</h1>
+            <p class="lead">"If you want to go fast, go alone. If you want to go far, go together."</p>
+            <p class="lead" id="anonymous">African proverb</p>
         </div>
     </div>
 
 
+
+
+
     <!-- About -->
-    <section class="feature-box">
+    <section class="feature-box" id="aboutme">
 
         <!--Section heading-->
-        <h1 class="py-5 font-bold">About</h1>
+        <h2 class="py-5 font-bold text-center">About</h2>
         <!--Section description-->
-        <p class="px-5 mb-5 pb-3 lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam.</p>
-
-        <!--Grid row-->
-        <div class="row features-small">
-
-            <!--Grid column-->
-            <div class="col-md-6 mb-r">
-                <div class="col-1 col-md-2 float-left">
-                    <i class="fa fa-bullhorn blue-text"></i>
-                </div>
-                <div class="col-10 col-md-9 col-lg-10 float-right">
-                    <h4 class="font-bold">Text</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
-                    <a class="btn btn-primary btn-sm ml-0">Learn more</a>
-                </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6 mb-r">
-                <div class="col-1 col-md-2 float-left">
-                    <i class="fa fa-cogs pink-text"></i>
-                </div>
-                <div class="col-10 col-md-9 col-lg-10 float-right">
-                    <h4 class="font-bold">Text</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
-                    <a class="btn btn-pink btn-sm ml-0">Learn more</a>
-                </div>
-            </div>
-            <!--Grid column-->
-
+        <div class="row">
+            <img class="rounded-circle profile-img col-md-4" src="https://cdn3.iconfinder.com/data/icons/black-easy/512/535106-user_512x512.png"
+                alt="profile image">
+            <p class="px-5 mb-5 pb-3 lead grey-text col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam.</p>
         </div>
-        <!--Grid row-->
 
+        <div class="container">
+            <h2 class="text-center">I can work with these ....</h2>
+            <div class="row justify-content-center">
+                <div class="span12 skill-icons text-center">
+                    <i class="devicon-bootstrap-plain-wordmark colored "></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-github-plain colored"></i>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <i class="devicon-gulp-plain colored"></i>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-jquery-plain-wordmark colored"></i>
+                    <i class="devicon-slack-plain-wordmark colored"></i>
+                    <i class="devicon-visualstudio-plain colored"></i>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <br>
-    <br>
-    <br>
+
 
 
     <!-- Portfolio -->
-    <div class="portfolio-1 container-fluid bg-3 text-center">
-        <h3 class="text-center">Admire my projects in awe</h3>
+    <div class="portfolio-1 container-fluid bg-3 text-center" id="projects">
+        <h2 class="text-center">What I've worked on</h2>
         <br>
-        <div class="row">
-            <div class="col-sm-2">
+        <div class="row image-row1">
+            <div class="col-sm-3">
                 <p>Project 1</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="./assets/img/Goombas revenge.png" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <p>Project 2</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <p>Project 3</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
         </div>
     </div>
     <br>
 
     <div class="portfolio-2 container-fluid bg-3 text-center">
-        <div class="row">
-            <div class="col-sm-2">
+        <div class="row image-row2">
+            <div class="col-sm-3">
                 <p>Project 4</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <p>Project 5</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <p>Project 6</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
         </div>
     </div>
@@ -152,112 +149,46 @@
     <br>
 
 
+
+
     <!-- Contact -->
-    <section class="contact-form col-md-6">
+    <section class="contact-form col-md-6" id="contactme">
         <form>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <h2 class="text-center">Want to get in touch?</h2>
+                <br>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                <textarea rows="10" cols="99" placeholder="Your message here"></textarea>
+                <textarea rows="10" cols="99" class="rounded" placeholder="Your message here"></textarea>
                 <small id="emailHelp" class="form-text text-muted">I will get in contact with you as soon as possible.</small>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
 
+
+
+
     <!-- Footer -->
-    <footer class="page-footer center-on-small-only mdb-color lighten-3">
-
-        <!--Footer Links-->
-        <div class="container">
-            <div class="row my-4">
-
-                <!--First column-->
-                <div class="col-md-4 col-lg-4">
-                    <h5 class="title mb-4 font-bold">Footer Content</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae dolores quam culpa, excepturi tenetur illum nostrum dignissimos obcaecati. Eos possimus suscipit aut ut voluptatibus aliquam labore explicabo fugiat enim.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
-                        esse quasi, veritatis totam voluptas nostrum. </p>
-                </div>
-                <!--/.First column-->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!--Second column-->
-                <div class="col-md-2 col-lg-2 ml-auto">
-                    <h5 class="title mb-4 font-bold">Home</h5>
-                    <ul>
-                        <p>
-                            <a href="#!">HOME</a>
-                        </p>
-                        <p>
-                            <a href="#!">ABOUT</a>
-                        </p>
-                        <p>
-                            <a href="#!">PROJECTS</a>
-                        </p>
-                        <p>
-                            <a href="#!">CONTACT</a>
-                        </p>
-                    </ul>
-                </div>
-                <!--/.Second column-->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!--Third column-->
-                <div class="col-md-4 col-lg-3">
-                    <h5 class="title mb-4 font-bold">Address</h5>
-                    <!--Info-->
-                    <p>
-                        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-                    <p>
-                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
-                    <p>
-                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p>
-                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-                </div>
-                <!--/.Third column-->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!--Fourth column-->
-                <div class="col-md-2 col-lg-2 text-center">
-                    <h5 class="title mb-4 font-bold">Follow Us</h5>
-                    <!--Social buttons-->
-                    <div class="social-section mt-2 ">
-                        <!--Facebook-->
-                        <a type="button" class="btn-floating btn-small btn-fb">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <!--Twitter-->
-                        <a type="button" class="btn-floating btn-small btn-tw">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <!--Google +-->
-                        <a type="button" class="btn-floating btn-small btn-gplus">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        <!--Dribbble-->
-                        <a type="button" class="btn-floating btn-small btn-dribbble">
-                            <i class="fa fa-dribbble"></i>
-                        </a>
+    <section>
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="span12 fbiconcolor social-icons text-center">
+                        <a href="https://twitter.com/Tsarg313" class="devicon-twitter-plain" target="_blank"></a>
+                        <a href="https://plus.google.com/u/0/+AndresMartinDM" class="devicon-google-plain" target="_blank"></a>
+                        <a href="https://www.facebook.com/andres.martin.7758" class="devicon-facebook-plain colored" target="_blank"></a>
                     </div>
                 </div>
-                <!--/.Fourth column-->
-
             </div>
+            <p style="font-family: sans-serif" "font-size: 50%" class="footer-text">By DreM</p>
         </div>
-        <!--/.Footer Links-->
-    </footer>
+    </section>
 
     <!-- Copyright -->
 

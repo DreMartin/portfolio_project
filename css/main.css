@@ -1,20 +1,25 @@
 /* General CSS stuff goes here. */
 
+body{
+    background-color: darkgray;
+}
+
 .jumbotron {
-    background-color: lightblue;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     vertical-align: middle;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fe/Auyantepui_from_plane.jpg);
+    background-size: cover; 
 }
 
-.feature-box {
-    padding-bottom: 150px;
+.image-row1{
+    margin-left: 21%;
 }
 
-.portfolio-2{
+.image-row2{
     padding-bottom: 50px;
-    margin-left: 25%;
+    margin-left: 21%;
 }
 
 .contact-form {
@@ -25,3 +30,42 @@
 .form-group {
     align-content: center;
 }
+
+.profile-img{
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+}
+
+.skill-icons{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#anonymous{
+    font-style: italic;
+}
+
+#projects{
+    padding-top: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+.social-icons{
+    margin-top: 10px;
+ }
+
+.fbiconcolor a:hover { 
+    color: white;
+    text-decoration: none;
+    }
