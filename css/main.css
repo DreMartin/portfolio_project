@@ -14,4 +14,14 @@
 
 .portfolio-2{
     padding-bottom: 50px;
+    margin-left: 25%;
+}
+
+.contact-form {
+    margin-left: 25%;
+    padding-bottom: 75px;
+}
+
+.form-group {
+    align-content: center;
 }
