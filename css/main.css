@@ -1,9 +1,17 @@
 /* General CSS stuff goes here. */
 
-.feature-box {
-    background-color: orangered;
+.jumbotron {
+    background-color: lightblue;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.contact-form {
-    background-color: lightgrey;
+.feature-box {
+    padding-bottom: 150px;
+}
+
+.portfolio-2{
+    padding-bottom: 50px;
 }

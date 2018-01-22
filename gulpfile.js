@@ -4,6 +4,8 @@ and reloading after a save.See the README.md for gulp commands.
 */
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
+var sass = require('gulp-sass');
+
 var reload      = browserSync.reload;
 
 // Our objective is to make some html stubs and be able to have the browser change everytime we save.
@@ -24,4 +26,22 @@ gulp.task('serve', function () {
         }
     });
     gulp.watch("*.html").on("change", reload);
+});
+
+
+// Compiles SCSS files from /scss into /css
+gulp/task('sass', function() {
+    return gulp.src('scss/main.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+        stream: true    
+    }))
+})
+
+
+// Runs sass  & serve methods, watches for changes and reloads
+gulp.task('dev', ['serve', 'sass'], function (){
+    gulp.watch('scss/*.scss', ['sass']);
+    gulp.watch('*.html');
 });
