@@ -1,16 +1,33 @@
 /* General CSS stuff goes here. */
-
 body{
     background-color: darkgray;
 }
 
 .jumbotron {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     text-align: center;
     vertical-align: middle;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fe/Auyantepui_from_plane.jpg);
+    background-image: url('../assets/img/Rio verde Auyantepui.jpg');
     background-size: cover; 
+    }
+
+.about-me-section{
+    padding-bottom: 100px;
+}
+
+.portfolio-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: white;
+}
+
+.contact-me{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.footer-section{
 }
 
 .image-row1{
@@ -20,11 +37,6 @@ body{
 .image-row2{
     padding-bottom: 50px;
     margin-left: 21%;
-}
-
-.contact-form {
-    margin-left: 25%;
-    padding-bottom: 75px;
 }
 
 .form-group {
@@ -69,3 +81,43 @@ body{
     color: white;
     text-decoration: none;
     }
+
+.lead-header {
+    color: white;
+}
+
+.header-one {
+    color: white;
+}
+
+
+h1,h2,h3 {
+	margin:0 0 35px 0;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+p{
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+    padding-bottom:150px;
+    padding-top: 150px;
+}
+
+textarea.form-control{
+    height:100px;
+}

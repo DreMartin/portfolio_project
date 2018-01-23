@@ -12,13 +12,15 @@
 
     <!-- Bootstrap core CSS Modules-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+        integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
     <link href="" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
@@ -63,9 +65,11 @@
     <!-- Header -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Andres Martin</h1>
-            <p class="lead">"If you want to go fast, go alone. If you want to go far, go together."</p>
-            <p class="lead" id="anonymous">African proverb</p>
+            <h1 class="display-4 header-one">Andres Martin</h1>
+            <p class="lead-header">"If you want to go fast, go alone. If you want to go far, go together."</p>
+            <p class="lead-header" id="anonymous">
+                <em>African proverb</em>
+            </p>
         </div>
     </div>
 
@@ -74,18 +78,30 @@
 
 
     <!-- About -->
-    <section class="feature-box" id="aboutme">
+    <section class="feature-box about-me-section" id="aboutme">
 
-        <!--Section heading-->
-        <h2 class="py-5 font-bold text-center">About</h2>
         <!--Section description-->
         <div class="row">
-            <img class="rounded-circle profile-img col-md-4" src="https://cdn3.iconfinder.com/data/icons/black-easy/512/535106-user_512x512.png"
-                alt="profile image">
-            <p class="px-5 mb-5 pb-3 lead grey-text col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
 
+            <div class="col-md-4 mx-auto">
+                <img class="rounded-circle profile-img img-thumbnail" src="./assets/img/MartinAndres.jpeg" alt="profile image">
+            </div>
+            <div class="col-md-8">
+                <h2 class="py-5 font-bold">A little something about me...</h2>
+                <div class="row text-center">
+                    <p class="px-5 mb-5 pb-3 lead grey-text text-center">
+                        <em>"Full-time student, spirited entrepreneur, teamwork advocate".</em>
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="px-5 mb-5 pb-3 lead grey-text">Coming from the manufacturing industry, I own a self developed sense of awareness when it comes to the
+                        structure of things and its importance in the creation process. The base of all success is knowing
+                        when to rely on others and when to help others achieve their goals in other to help ourselves achieve
+                        ours, understanding that through teamwork, spiritual success is guaranteed, and, in life, there is
+                        no bigger goal than that.</p>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <h2 class="text-center">I can work with these ....</h2>
             <div class="row justify-content-center">
@@ -109,27 +125,30 @@
 
 
     <!-- Portfolio -->
-    <div class="portfolio-1 container-fluid bg-3 text-center" id="projects">
-        <h2 class="text-center">What I've worked on</h2>
-        <br>
-        <div class="row image-row1">
-            <div class="col-sm-3">
-                <p>Project 1</p>
-                <img src="./assets/img/Goombas revenge.png" class="img-responsive rounded" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Project 2</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Project 3</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
+    <section class="portfolio-section" id="projects">
+        <div class="portfolio-1 container-fluid bg-3 text-center">
+            <h2 class="text-center">What I've worked on (so far)</h2>
+            <br>
+            <br>
+            <br>
+            <div class="row image-row1">
+                <div class="col-sm-3">
+                    <p>Project 1</p>
+                    <img src="./assets/img/Goombas revenge.png" class="img-responsive rounded img-thumbnail" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                    <p>Project 2</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                    <p>Project 3</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
+                </div>
             </div>
         </div>
-    </div>
-    <br>
+        <br>
 
-    <div class="portfolio-2 container-fluid bg-3 text-center">
+        <!-- <div class="portfolio-2 container-fluid bg-3 text-center">
         <div class="row image-row2">
             <div class="col-sm-3">
                 <p>Project 4</p>
@@ -144,38 +163,49 @@
                 <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-
+    </div> -->
+        <br>
+        <br>
+        <h3 class="text-center">
+            <em> Stay tuned for many more to come ...</em>
+        </h3>
+    </section>
 
 
 
     <!-- Contact -->
-    <section class="contact-form col-md-6" id="contactme">
-        <form>
-            <div class="form-group">
-                <h2 class="text-center">Want to get in touch?</h2>
-                <br>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name">
+    <section id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="exampleInputName2">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                            </div>
+                            <div class="form-group ">
+                                <label for="exampleInputText">Your Message</label>
+                                <textarea class="form-control" placeholder="Description"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
-                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <textarea rows="10" cols="99" class="rounded" placeholder="Your message here"></textarea>
-                <small id="emailHelp" class="form-text text-muted">I will get in contact with you as soon as possible.</small>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </section>
 
 
 
 
     <!-- Footer -->
-    <section>
+    <section class="footer-section">
         <div class="footer">
             <div class="container">
                 <div class="row justify-content-center">
@@ -183,6 +213,7 @@
                         <a href="https://twitter.com/Tsarg313" class="devicon-twitter-plain" target="_blank"></a>
                         <a href="https://plus.google.com/u/0/+AndresMartinDM" class="devicon-google-plain" target="_blank"></a>
                         <a href="https://www.facebook.com/andres.martin.7758" class="devicon-facebook-plain colored" target="_blank"></a>
+                        <a href="https://github.com/DreMartin" class="devicon-github-plain" target="_blank"></a>
                     </div>
                 </div>
             </div>
@@ -197,10 +228,13 @@
     <!-- Scripts -->
 
     <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
