@@ -132,17 +132,35 @@
             <br>
             <br>
             <div class="row image-row1">
-                <div class="col-sm-3">
-                    <p>Project 1</p>
-                    <img src="./assets/img/Goombas revenge.png" class="img-responsive rounded img-thumbnail" alt="Image">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive thumbnail rounded project-img" src="./assets/img/goombas_revenge.png" alt="">
+                        <div class="overlay">
+                            <p>
+                                <a href="https://codepen.io/dreMartin/full/eyVLGN/" target="blank">CSS Creature</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <p>Project 2</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded thumbnail project-img" src="./assets/img/spatial_awareness.png" alt="">
+                        <div class="overlay">
+                            <p>
+                                <a href="https://dremartin.github.io/API/" target="blank">API Project</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <p>Project 3</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive rounded" style="width:100%" alt="Image">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded thumbnail project-img" src="./assets/img/the_beagler.png" alt="">
+                        <div class="overlay">
+                            <p>
+                                <a href="https://dremartin.github.io/storefront_project/" target="blank">Inital Website</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,20 +198,20 @@
                 <h2>Contact Us</h2>
                 <div class="row">
                     <div class="col-md-8">
-                        <form class="form-horizontal">
+                        <form class="form-horizontal" action="https://formspree.io/anrumara@gmail.com" method="POST">
                             <div class="form-group">
                                 <label for="exampleInputName2">Name</label>
-                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe" required="" data-validation-required-message="Please enter your name">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail2">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                <input type="email" name="_replyto" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com" required="">
                             </div>
                             <div class="form-group ">
                                 <label for="exampleInputText">Your Message</label>
-                                <textarea class="form-control" placeholder="Description"></textarea>
+                                <textarea class="form-control" placeholder="Description" required=""></textarea>
                             </div>
-                            <button type="submit" class="btn btn-default">Send Message</button>
+                            <input type="submit" class="btn btn-default" value="Send">
                         </form>
                     </div>
                 </div>
