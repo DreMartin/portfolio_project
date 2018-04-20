@@ -13,11 +13,16 @@ body{
     }
 
 .about-me-section{
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.resume-link{
+    color: aqua;
+}
+
 .portfolio-section{
-    padding-top: 150px;
+    padding-top: 300px;
     padding-bottom: 150px;
     background-color: rgba(233, 179, 62, 0.856);
 }
@@ -55,12 +60,16 @@ body{
     margin-bottom: 40px;
 }
 
+.contact-form{
+    margin: auto;
+}
+
 #anonymous{
     font-style: italic;
 }
 
 #projects{
-    padding-top: 50px;
+    padding-top: 155px;
 }
 
 .footer {
@@ -71,6 +80,10 @@ body{
     background-color: rgb(41, 40, 40);
     color: white;
     text-align: center;
+}
+
+.footer-text{
+    margin: 0;
 }
 
 .social-icons{
